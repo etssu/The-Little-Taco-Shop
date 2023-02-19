@@ -6,30 +6,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>The Little Taco Shop</title>
     <link rel="icon" href="images/taco_p.png" type="image x-icon" loading="lazy"/>
+    <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
-    <h1>Welcome to The Litlle Taco Shop</h1>
-    <nav>
-        <ul>
-            <li><a href="#about">About LTS</a></li>
-            <li><a href="#menu">Our Menu</a></li>
-            <li><a href="store_hours.html">Store Hours</a></li>
-            <li><a href="contact.html">Contact Us</a></li>
-        </ul>
-    </nav>
-    <figure>
-      <img
-        src="images/taco_and_drink.jpg"
-        alt="taco_and_drink"
-        width="500"
-        height="350"
-      />
-      <figcaption>Tacos and Drink</figcaption>
-    </figure>
+    <header>
+        <section id="container">
+            <h1>Welcome to The Little Taco Shop</h1>
+            <nav>
+                <ul>
+                    <li><a href="#about">About LTS</a></li>
+                    <li><a href="#menu">Our Menu</a></li>
+                    <li><a href="store_hours.html">Store Hours</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </nav>
+            <figure>
+            <img
+                src="images/taco_and_drink.jpg"
+                alt="taco_and_drink"
+                width="500"
+                height="350" />
+            <figcaption>Tacos and Drink</figcaption>
+            </figure>
+        </section>
+    </header>
 
-    <hr />
-
-    <section id="about">
+    <main>
+    <section id="about" class="about">
     <h2>About LTS</h2>
     <p><abbr title="Little Taco Shop">LTS</abbr> was founded in 2022. Our shop was built from a love of <strong>Tacos</strong>&#127790 We hope our shop adds a unique and interesting place to our little town.</p>
     <h3>Taco Trivia</h3>
@@ -41,8 +44,7 @@
         </aside>
     </section>
 
-    <hr>
-    <section id="menu">
+    <section id="menu" class="menu">
         <h2>Our Menu</h2>
             <link rel="stylesheet" href="css/table.css">
             <table>
@@ -91,6 +93,7 @@
                 </tfoot>
             </table>
     </section>
+</main>
 
     <br><br>
 
