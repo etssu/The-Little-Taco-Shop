@@ -5,7 +5,7 @@ body {
 header {
   border: 2px solid rgb(0, 0, 0);
   border-radius: 2rem;
-  background-color: aliceblue;
+  background-color: #f9f5df;
   margin-left: 1em;
   padding: 1em;
 }
@@ -16,11 +16,12 @@ h1 {
 }
 
 .about {
-  background-color: aliceblue;
-  margin-left: 2em;
-  padding: 2em;
+  background-color: #f9f5df;
+  margin-left: 1em;
+  padding: 1em;
   border: 2px solid black;
   border-radius: 2em;
+  margin-top: 1.5em;
 }
 
 a:visited {
@@ -36,4 +37,27 @@ a:active {
 
 .menu {
   text-align: center;
+  padding-left: 8em;
+  width: 60%;
+}
+
+table {
+  width: 60%;
+}
+ul {
+  list-style: none;
+  padding: 0.5rem;
+  text-align: center;
+  background-color: #d4a373;
+  margin: 0;
+}
+
+li {
+  display: inline-block;
+  margin-inline: 1rem;
+}
+
+li a {
+  color: #000000;
+  text-decoration: none;
 }
