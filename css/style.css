@@ -36,9 +36,9 @@ a:active {
 }
 
 .menu {
+  width: 50%;
   text-align: center;
-  padding-left: 8em;
-  width: 60%;
+  padding-left: 10em;
 }
 
 table {
