@@ -12,6 +12,7 @@
       loading="lazy"
     />
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/style_contact.css" />
   </head>
   <body>
     <header>
@@ -31,59 +32,59 @@
           width="500"
           height="300"
         />
-        <figcaption>Just some tasty tacos!</figcaption>
       </figure>
     </header>
-    <section id="contact">
-      <h2>Our Contact Form</h2>
+    <section id="contact" class="contact">
+      <h2>Send Us a Message</h2>
       <form action="https://httpbin.org/get" method="get">
-        <fieldset>
-          <legend>Send Us A Message</legend>
-          <p>
-            <label for="name">Name:</label><br />
-            <input
-              type="text"
-              name="name"
-              id="name"
-              placeholder="Your Name"
-            /><br />
-            <br />
-            <label for="email">Email:</label><br />
-            <input
-              type="text"
-              name="email"
-              id="email"
-              placeholder="Your Email"
-            /><br />
-            <br />
-            <label for="message">Your message:</label><br />
-
-            <textarea
-              name="message"
-              id="message"
-              cols="20"
-              rows="10"
-              placeholder="Type your message here."
-            ></textarea>
-          </p>
-        </fieldset>
+        <p>
+          <label for="name">Name:</label>
+          <br />
+          <input
+            type="text"
+            name="name"
+            id="name"
+            placeholder="Your Name"
+          /><br />
+          <br />
+          <label for="email">Email:</label><br />
+          <input
+            type="text"
+            name="email"
+            id="email"
+            placeholder="Your Email"
+          /><br />
+          <br />
+          <label for="message">Your message:</label><br />
+          <textarea
+            name="message"
+            id="message"
+            cols="20"
+            rows="10"
+            placeholder="Type your message here."
+          ></textarea>
+        </p>
         <input type="submit" name="send" id="send" value="Send" />
         <input type="submit" name="reset" id="reset" value="Reset" />
       </form>
     </section>
-    <section id="location">
+
+    <section id="location" class="location">
       <h2>Our Location</h2>
       <address>
         234 Taco Temptation Lane, Suite T. <br />
         Kansas City, MO 55555-5555 <br />
         <br />
-        Phone: <a href="tel+5555555555">555-555-5555</a>
+        Phone: <a id="link" href="tel+5555555555">555-555-5555</a>
       </address>
     </section>
     <br />
-    <a href="#">Back to Top</a>
-    <br />
+    <footer>
+      <a href="#">Back to Top</a>
+    </footer>
     <hr />
-    <p>Copyright &copy; The Little Taco Shop</p>
+    <div class="foot">
+      <p>Copyright © The Little Taco Shop</p>
+    </div>
   </body>
 </html>

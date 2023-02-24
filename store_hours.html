@@ -7,50 +7,63 @@
     <title>LTS Hours</title>
     <link rel="icon" href="images/taco_p.png" />
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/style_hours.css" />
   </head>
   <body>
-    <h1>Little Taco Shop Hours</h1>
-    <nav>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="index.html/#about">About LTS</a></li>
-        <li><a href="contact.html">Contact Us</a></li>
-      </ul>
-    </nav>
-    <figure>
-      <img
-        src="images/taco.jpg"
-        alt="tasty taco"
-        width="450"
-        height="300"
-        loading="lazy"
-      />
-      <figcaption>Delicious tacos</figcaption>
-    </figure>
-    <hr />
-    <h3>We are open 7 days a week!</h3>
+    <header>
+      <h1>Little Taco Shop Hours</h1>
+      <div id="nav">
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="index.html/#about">About LTS</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div style="display: flex; justify-content: center">
+        <figure>
+          <img
+            src="images/taco.jpg"
+            alt="tasty taco"
+            width="450"
+            height="300"
+            loading="lazy"
+          />
+        </figure>
+      </div>
+    </header>
+    <main>
+      <h2>We are open 7 days a week!</h2>
+      <br />
+      <div class="table_hours">
+        <table>
+          <tr>
+            <tbody>
+              <tr>
+                <th>Sunday - Thursday</th>
+              </tr>
+              <tr>
+                <td>11am - 9pm</td>
+              </tr>
+              <tr>
+                <th>Friday - Saturday</th>
+              </tr>
+              <tr>
+                <td>11am - 11pm</td>
+              </tr>
+            </tbody>
+          </tr>
+        </table>
+      </div>
+    </main>
     <br />
-    <table>
-      <tr>
-        <thead>
-          <th>Sunday - Thursday</th>
-        </thead>
-        <tbody>
-          <tr>
-            <td>11am - 9pm</td>
-          </tr>
-          <tr>
-            <th>Friday - Saturday</th>
-          </tr>
-          <tr>
-            <td>11am - 11pm</td>
-          </tr>
-        </tbody>
-      </tr>
-    </table>
-    <br />
-    <a href="#">Back to Top</a>
+    <footer>
+      <a href="#">Back to Top</a>
+    </footer>
     <hr />
-    <p>Copyright &copy; The Little Taco Shop</p>
+    <div class="foot">
+      <p>Copyright © The Little Taco Shop</p>
+    </div>
   </body>
 </html>

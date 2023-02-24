@@ -1,0 +1,38 @@
+img {
+  width: auto;
+}
+
+header {
+  border: 2px solid rgb(0, 0, 0);
+  border-radius: 2rem;
+  background-color: #faedcd;
+  margin-left: 1em;
+  margin-right: 1em;
+  padding: 2em;
+}
+
+main {
+  margin: 1.5em;
+  border: 2px solid rgb(0, 0, 0);
+  border-radius: 2rem;
+  background-color: #faedcd;
+  margin-left: 1em;
+  margin-right: 1em;
+  padding: 2em;
+}
+
+footer {
+  background-color: #d4a373;
+  text-align: center;
+}
+
+table {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.foot {
+  text-align: center;
+  font-size: smaller;
+  color: #333;
+}
